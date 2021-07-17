@@ -18,9 +18,10 @@ img {
 /* Стили для таймера-1 */
 
  .body__style {
-   
-  background: #0f3854;
-  background: radial-gradient(ellipse at center,  #94e1f7  0%, #4372f3 70%);
+ 
+  /* background: radial-gradient(ellipse at center,  #467fe9  0%, #67c8f5 85%); */
+
+ 
   background-size: 100%;
  }
 
@@ -37,6 +38,7 @@ img {
   display: flex;
   flex-direction: column ;
   align-items: center;
+  margin-top: 30px;
 
 }
 
@@ -50,7 +52,7 @@ img {
 		color: #ffffff;
 		line-height: 135px;
 		width: 105px;
-		margin: 0 5px;
+		margin: 0 3px;
 		border-radius: 2px;
   }
 
@@ -68,20 +70,22 @@ img {
 
 .input__style{
   
-  display: block;
+    display: block;
 		background: none;
-		color: inherit;
+	
 		text-transform: uppercase;
-		font-size: 14px;
+		font-size: 18px;
 		line-height: 30px;
 		width: auto;
 	
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     
     width: 300px;
-    height: 50px;
+    height: 60px;
 }
  
 .button__style{
@@ -92,20 +96,20 @@ transform: translate(-50%, 0);
     
   
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
-  border-radius: 4px;
+  border-radius: 2px;
   border: none;
   padding: 8px 10px;
-  width: 300px;
+  width: 200px;
   height: 50px;
   cursor: pointer;
   color: white;
   background-color: #4dadf7;
 
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.875;
+  text-transform: uppercase;
+		font-size: 14px;
+		line-height: 30px;
   align-items: center;
   text-align: center;
 }

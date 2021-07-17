@@ -10,11 +10,10 @@ minutesEl : document.querySelector('[data-minutes]'),
 secondsEl : document.querySelector('[data-seconds]'),
 }
 
-// Вешаю классы на боди, форму и кнопку
+// Вешаю классы на форму и кнопку
 
 refs.inputEl.classList.add('input__style'),
 refs.btnStart.classList.add('button__style'),
-document.body.classList.add('body__style')
 
 // Вешаю слушатель событий на кноаку
 

@@ -34,3 +34,4 @@ let timerId = null;
   console.log('стоп')
  }
 
+ 

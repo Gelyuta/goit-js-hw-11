@@ -48,7 +48,7 @@ function getRandomHexColor() {
 элементов интерфейса.
 
 ```html
-<input type="date" id="date-selector" />
+<!-- <input type="date" id="date-selector" /> -->
 <button type="button" data-start>Start countdown</button>
 
 <div class="timer">

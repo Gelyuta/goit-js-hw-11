@@ -71,7 +71,7 @@ refs.btnStart.addEventListener('click', ()=> {
     })
                 return;
     }
-        console.log('клик')
+        // console.log('клик')
   
         refs.btnStart.removeAttribute('disabled');
      });
